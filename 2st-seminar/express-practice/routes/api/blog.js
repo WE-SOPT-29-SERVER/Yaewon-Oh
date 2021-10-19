@@ -1,15 +1,16 @@
 const express = require("express");
 const router = express.Router();
 
-router.get("/", (req, res) => {
+/**
+ * [GET]
+ * api/blog/post
+ */
+router.get("/post", (req, res) => {
   const result = {
     status: 200,
-    msg: "API!",
+    msg: "api/blog/post 라우팅을 만들었습니다~",
   };
-
   res.status(200).send(result);
 });
-
-router.use("/blog", require("./blog"));
 
 module.exports = router;
