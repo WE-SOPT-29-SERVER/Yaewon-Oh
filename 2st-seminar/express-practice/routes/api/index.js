@@ -11,5 +11,5 @@ router.get("/", (req, res) => {
 });
 
 router.use("/blog", require("./blog"));
-
+router.use("/users", require("./users"));
 module.exports = router;
