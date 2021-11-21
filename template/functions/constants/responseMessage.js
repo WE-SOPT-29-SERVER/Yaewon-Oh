@@ -16,11 +16,25 @@ module.exports = {
   // 프로필 조회
   READ_PROFILE_SUCCESS: '프로필 조회 성공',
 
-  // 게시글 조회
-  READ_ALL_POSTS_SUCCESS: '모든 게시글 조회 성공',
-  READ_POST_SUCCESS: '게시글 조회 성공',
-  CREATE_POST_SUCESS: '게시글 생성 성공',
-  MODIFY_POST_SUCCESS: '게시글 수정 성공',
-  DELETE_POST_SUCCESS: '게시글 삭제 성공',
-  NO_POST: '존재하지 않는 게시글입니다',
+  // 유저
+  READ_ONE_USER_SUCCESS: '유저 조회 성공',
+  READ_ALL_USERS_SUCCESS: '모든 유저 조회 성공',
+  UPDATE_ONE_USER_SUCCESS: '유저 수정 성공',
+  DELETE_ONE_USER_SUCCESS: '유저 삭제 성공',
+
+  // 포스트
+  ADD_ONE_POST_SUCCESS: '포스트 추가 성공',
+  READ_ONE_POST_SUCCESS: '포스트 조회 성공',
+  READ_ALL_POSTS_SUCCESS: '모든 포스트 조회 성공',
+  UPDATE_ONE_POST_SUCCESS: '포스트 수정 성공',
+  DELETE_ONE_POST_SUCCESS: '포스트 삭제 성공',
+  NO_POST: '존재하지 않는 포스트입니다.',
+
+  // 서버 내 오류
+  INTERNAL_SERVER_ERROR: '서버 내 오류',
+
+  // 토큰
+  TOKEN_EXPIRED: '토큰이 만료되었습니다.',
+  TOKEN_INVALID: '토큰이 유효하지 않습니다.',
+  TOKEN_EMPTY: '토큰이 없습니다.',
 };
